@@ -10,7 +10,7 @@ function App() {
       <Provider store={store}>
           <BrowserRouter>
               <Routes>
-                  <Route path="/" element={<CitiesList />}/>
+                  <Route path="/city-weather" element={<CitiesList />}/>
                   <Route path="/city/:id" element={<City />}/>
                   <Route path="*" element={<NotFound />} />
               </Routes>
