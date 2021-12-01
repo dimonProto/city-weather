@@ -1,0 +1,6 @@
+export const ADD_CITY = 'ADD_CITY'
+export const DELETE_CITY = 'DELETE_CITY'
+export const RESTORE_CITIES = 'RESTORE_CITIES'
+export const ADD_WEATHER = 'ADD_WEATHER'
+export  const GET_CITY = 'GET_CITY'
+export  const GET_WEATHER_BY_HOUR = 'GET_WEATHER_BY_HOUR'
