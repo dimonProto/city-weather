@@ -3,7 +3,7 @@ const API_KEY = 'b9898eab2d007d76ad60232f74562835'
 
 
 export const getWeatherRequest = async ({name,country}) => {
-    return  axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${name},${country}&appid=${API_KEY}&units=metric`)
+    return  axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${name},${country}&appid=${API_KEY}&units=metric`)
 }
 
 export const getHourWeatherRequest = async ({lat, lon}) => {
